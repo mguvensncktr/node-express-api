@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const Clans = require('../api/models/clans');
+const Clans = require('../models/clans');
 
 function paginatedResults(model) {
     return async (req, res, next) => {

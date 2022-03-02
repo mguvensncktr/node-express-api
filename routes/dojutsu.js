@@ -1,6 +1,6 @@
 
 const router = require('express').Router();
-const Dojutsu = require('../api/models/dojutsu');
+const Dojutsu = require('../models/dojutsu');
 
 
 function paginatedResults(model) {

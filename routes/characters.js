@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const Character = require('../api/models/characters');
+const Character = require('../models/characters');
 
 
 function paginatedResults(model) {
